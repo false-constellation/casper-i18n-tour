@@ -1925,6 +1925,22 @@ iframe.instagram-media + script + :not([id]) {
 }
 
 
+/* 6.5. prev next
+/* ---------------------------------------------------------- */
+
+.prev-next-wrap {
+    margin-top: 2.4vmin;
+}
+
+.footer-cta + .prev-next-wrap {
+    margin-top: max(12vmin, 72px);
+}
+
+.prev-next {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* 7. Author Template
 /* ---------------------------------------------------------- */
 

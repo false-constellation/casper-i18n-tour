@@ -115,13 +115,13 @@ into the {body} tag of the default.hbs template --}}
 {{/if}}
 
 
-<aside class="read-more-wrap outer">
-    <div class="read-more inner">
+<aside class="prev-next-wrap outer">
+    <div class="prev-next inner">
         {{#prev_post}}
-            {{> "post-card" additional_class="dynamic"}}
+            <a href="{{url}}">{{t "Previous Post"}}: {{title}}</a>
         {{/prev_post}}
         {{#next_post}}
-            {{> "post-card" additional_class="dynamic"}}
+            <a href="{{url}}">{{t "Next Post"}}: {{title}}</a>
         {{/next_post}}
     </div>
 </aside>
