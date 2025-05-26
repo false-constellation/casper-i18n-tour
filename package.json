@@ -1,6 +1,6 @@
 {
-    "name": "casper-i18n",
-    "description": "The same casper theme, but with localization support",
+    "name": "casper-i18n-prev-next",
+    "description": "The same casper theme, but with localization support and prev next post cards",
     "demo": "https://demo.ghost.io",
     "version": "5.9.0",
     "engines": {
