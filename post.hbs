@@ -115,13 +115,13 @@ into the {body} tag of the default.hbs template --}}
 {{/if}}
 
 
-<aside class="prev-next-wrap outer">
+<aside class="prev-next-wrap outer kg-card kg-button-card">
     <div class="prev-next inner">
         {{#prev_post}}
-            <a href="{{url}}">{{t "Previous Post"}}: {{title}}</a>
+            <a class="kg-btn kg-btn-accent" href="{{url}}">{{t "Previous Post"}}: {{title}}</a>
         {{/prev_post}}
         {{#next_post}}
-            <a href="{{url}}">{{t "Next Post"}}: {{title}}</a>
+            <a class="kg-btn kg-btn-accent" href="{{url}}">{{t "Next Post"}}: {{title}}</a>
         {{/next_post}}
     </div>
 </aside>
