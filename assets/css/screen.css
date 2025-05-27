@@ -1932,11 +1932,8 @@ iframe.instagram-media + script + :not([id]) {
     margin-top: 2.4vmin;
 }
 
-.footer-cta + .prev-next-wrap {
-    margin-top: max(12vmin, 72px);
-}
-
 .prev-next {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
