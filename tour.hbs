@@ -96,14 +96,15 @@ into the {body} tag of the default.hbs template --}}
         {{content}}
     </section>
     {{/page}}
+    </article>
 
-    <section class="gh-content gh-canvas post-index">
+    <aside class="gh-content gh-canvas post-index">
       <ul>
         {{#foreach posts}}
           <li><a href="#post-{{slug}}">{{title}}</a></li>
         {{/foreach}}
       </ul>
-    </section>
+    </aside>
 
     <section class="gh-content gh-canvas posts-with-index">
     {{#foreach posts}}
@@ -138,7 +139,7 @@ into the {body} tag of the default.hbs template --}}
           </div> --}}
         </header>
 
-        <section class="post-full-content">
+        <section class="post-full-content gh-content">
         {{!-- <section class="gh-content gh-canvas"> --}}
           {{content}}
         </section>
@@ -150,6 +151,4 @@ into the {body} tag of the default.hbs template --}}
     {{/foreach}}
     </section>
 
-
-</article>
 </main>
